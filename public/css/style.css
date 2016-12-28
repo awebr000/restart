@@ -1,0 +1,87 @@
+body {
+  background: url(../images/bg-03.jpg) center center no-repeat ;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#hero-home {
+    background:
+    url(../images/header-2.png) center center no-repeat;
+    background-size: contain;
+    /*background-attachment: fixed;*/
+    min-height: 350px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+#home-page {
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 500px;
+    padding: 50px 35px;
+}
+.gallery {
+  margin-top: 30px;
+}
+
+.gallery > img {
+  width: 100%;
+  filter: grayscale(100%);
+  text-align: center;
+  border: 5px solid white;
+  transition: 0.5s ease-out;
+}
+.gallery > img:hover {
+  cursor: pointer;
+  filter: none;
+}
+
+.navbar {
+  position: absolute;;
+  top: 265px;
+  margin-bottom: 0;
+  right: 70px;
+  font-family: 'Oswald';
+}
+.navbar-brand{
+  color: white;
+}
+.nav > li > a {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  color: white;
+}
+.nav > li > a:hover {
+  color: grey;
+  background-color: transparent;
+}
+
+.gallery-active > img{
+    box-shadow: 0px 0px 50px #fff;
+    filter: none;
+}
+.explanation {
+  background-color: #1a1a1a;
+  color: white;
+  border-radius: 10px;
+  padding: 50px;
+  font-family: 'Roboto';
+}
+.explanation > h2 {
+  font-family: 'Oswald';
+  font-size: 25px;
+}
+.tab-content > .hover-active {
+  display: block;
+}
+
+.tab-content > .hover-inactive {
+  display: none !important;
+}
+.bold-title {
+  font-family: 'Oswald';
+  font-size: 50px;
+  color: white;
+  padding-bottom: 50px;
+}
+.icon-separator::before{
+  border-left: 2px solid white;
+}
